@@ -1,0 +1,98 @@
+<?php
+$con = mysql_connect('localhost', 'root', '') or die('Could not connect: ' . mysql_error());
+mysql_select_db("national", $con);
+$result=mysql_query("select * from form");
+
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Details Document</title>
+</head>
+
+<body>
+<div style="width:100%;" >
+	<div style="width:85%; margin-left:25px;"  >
+		<table  >
+        <tr>
+        <td>1.</td>
+        <td>Please Select Injury</td>
+        <td>ans</td>
+        </tr>
+        <tr>
+        <td>2.</td>
+        <td>Have you had an accident in the last 2yrs that was not your fault? </td>
+        <td>ans</td>
+        </tr>
+        <tr>
+        <td>3.</td>
+        <td>Were you injured as a result of this accident? </td>
+        <td>ans</td>
+        </tr>
+        <tr>
+        <td>4.</td>
+        <td>Do you want to pursue a No Win no Fee Compensation Claim?</td>
+        <td>ans</td>
+        </tr>
+        <tr>
+        <td>5.</td>
+        <td>Have you already made a claim in relation to this enquiry?</td>
+        <td>ans</td>
+        </tr>
+        <tr>
+        <td>6.</td>
+        <td>Have you signed any documents with any other solicitors in relation to this enquiry?</td>
+        <td>ans</td>
+        </tr>
+        <tr>
+        <td>7.</td>
+        <td>What type of accident were you involved in?</td>
+        <td>ans</td>
+        </tr>
+        <tr>
+        <td>8.</td>
+        <td>Please provide us with some details in relation to your accident:</td>
+        <td>ans</td>
+        </tr>
+        <tr>
+        <td>9.</td>
+        <td>Your Title:</td>
+        <td>ans</td>
+        </tr>
+        <tr>
+        <td>10.</td>
+        <td>Email:</td>
+        <td>ans</td>
+        </tr>
+        <tr>
+        <td>11.</td>
+        <td>First Name:</td>
+        <td>ans</td>
+        </tr>
+        <tr>
+        <td>12.</td>
+        <td>Surname:</td>
+        <td>ans</td>
+        </tr>
+        <tr>
+        <td>13.</td>
+        <td>Home Phone:</td>
+        <td>ans</td>
+        </tr>
+        <tr>
+        <td>14.</td>
+        <td>Mobile:</td>
+        <td>ans</td>
+        </tr>
+        </table>
+        
+    
+    
+    
+	</div>
+
+
+</div>
+</body>
+</html>
